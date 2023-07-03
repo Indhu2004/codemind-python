@@ -1,8 +1,10 @@
 n=int(input())
-a=list(map(int,input().split()))
-for i in a:
+lst=list(map(int,input().split()))
+e=[]
+o=[]
+for i in lst:
     if i%2==0:
-        print(i,end=" ")
-for j in a:
-    if j%2!=0:
-        print(j,end=" ")
+        e.append(i)
+    if i%2!=0:
+        o.append(i)
+print(*e,*o)
