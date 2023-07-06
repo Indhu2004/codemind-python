@@ -7,8 +7,7 @@ while n:
     d=d+r**a
     a=a-1
     n=n//10
-if d==temp:
+if d== temp:
     print("True")
 else:
     print("False")
-    
